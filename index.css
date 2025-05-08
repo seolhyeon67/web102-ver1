@@ -43,11 +43,39 @@ a {
     background-color: aqua;
     width: 1240px;
     padding: 10px 0px;
+    overflow: hidden;
 }
 #icon_box>p {
     background-color: orange;
     width: 250px;
+    padding: 30px 0px;
     margin: 0px 30px;
     font-size: 14px;
+    line-height: 25px;
     float: left;
+    border-bottom: dotted 2px gray;
+}
+#chefs {
+    height: 304px; width: 100%;
+    background-color: #ececec;
+}
+#chefs>div.chefsbox {
+    background-color: orange;
+    width: 771px; height: 100%;
+}
+div.chefsbox>p {
+    margin-top:130px;
+    text-align: left;
+    float: left;
+    background-color: bisque;
+    font-size: 14px;
+    width: 500px;
+}
+div.chefsbox>p::before {
+    content: 'Title';
+    display: block;
+    width: fit-content;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: solid 2px black;
 }
