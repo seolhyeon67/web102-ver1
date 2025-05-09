@@ -1,0 +1,71 @@
+* {
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: 'Malgun Gothic';
+    color: black; 
+}
+#top {
+    width: 1000px; height: 500px;
+    
+}
+#top img {
+    float: left;
+}
+div.leftbox {
+    margin-top: -250px;
+    float: left;
+    background-color: rgba(18, 131, 18, 0.5);
+    width: 210px; height: 210px;
+    padding: 20px;
+}
+div.leftbox>p::before {
+    content: 'GLOBAL BUSINESS';
+    display: block;
+    width: 30px;
+    padding-bottom: 20px;
+    font-size: 21px;
+    font-weight: bolder;
+}
+#box_all {
+    width:1000px; height: 500px;
+}
+div.box {
+    background-color: gray;
+    width: 210px; height: 210px;
+    padding: 20px;
+    float: left;
+}
+div.box>p::before {
+    content: 'Title';
+    font-weight: bolder;
+    display: block;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+div.box:nth-child(2n-1) {
+    background-color: orange;
+}
+div.box:nth-child(1) {
+    float: right;
+    height: 460px; 
+    background-color: burlywood;
+}
+#footer {
+    width: 750px; height: 40px;
+    background-color: pink;
+    padding-right: 240px;
+    padding-left: 10px;
+}
+#footer>p {
+    float: left;
+    line-height: 40px;
+}
+#footer>p.footer::after {
+    content: '';
+    display: inline-block;
+    height: 14px;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 40px;
+    border-left: solid 2px orange;
+}

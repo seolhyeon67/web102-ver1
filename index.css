@@ -6,19 +6,16 @@
 }
 #header {
     height: 120px;
-    background-color: aqua;
 }
 #header>ul{
     padding-left: 0px;
     margin-top: 33px;
     display: inline-block;
     height: 53px;
-    background-color: orange;
     overflow: hidden;
 }
 #header>ul>li {
     padding: 33px 40px 0px 40px;
-    background-color: blanchedalmond;
     float: left;
 }
 #header>ul>li:nth-child(4) {
@@ -40,13 +37,11 @@ a {
     padding: 30px 0px;
 }
 #icon_box {
-    background-color: aqua;
     width: 1240px;
     padding: 10px 0px;
     overflow: hidden;
 }
 #icon_box>p {
-    background-color: orange;
     width: 250px;
     padding: 30px 0px;
     margin: 0px 30px;
@@ -60,14 +55,12 @@ a {
     background-color: #ececec;
 }
 #chefs>div.chefsbox {
-    background-color: orange;
     width: 771px; height: 100%;
 }
 div.chefsbox>p {
     margin-top:130px;
     text-align: left;
     float: left;
-    background-color: bisque;
     font-size: 14px;
     width: 500px;
 }
